@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "h2tay",
+      "fullname": "hakim toutay",
+      "password": "hakimtoutay99"
+    },
+    {
+      "username": "john",
+      "fullname": "john doe",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "username": "anass",
+      "fullname": "anass elkafaf",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "username": "youssef",
+      "fullname": "youssef hajjaj",
+      "password": "123456",
+      "id": 4
+    }
+  ]
+}

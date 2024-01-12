@@ -29,6 +29,12 @@
       "fullname": "dasd",
       "password": "asdasd",
       "id": 5
+    },
+    {
+      "username": "anass99",
+      "fullname": "anass",
+      "password": "anass99",
+      "id": 6
     }
   ]
 }

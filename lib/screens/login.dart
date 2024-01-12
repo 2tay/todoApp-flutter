@@ -17,7 +17,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
   Future<List<Map<String, dynamic>>> readUserData() async {
     final response =
-        await http.get(Uri.parse('http://192.168.1.7:8000/users'));
+        await http.get(Uri.parse('http://localhost:8000/users'));
 
     if (response.statusCode == 200) {
       // Parse the response body
@@ -94,7 +94,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 // Clear textfields after the submit
                 _usernameController.clear();
                 _passwordController.clear();
-                
+
               },
               child: Text('Login'),
             ),

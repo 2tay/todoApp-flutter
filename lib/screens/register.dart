@@ -14,7 +14,7 @@ class RegisterScreen extends StatefulWidget {
 
 Future<void> postData(User data) async {
   final response = await http.post(
-    Uri.parse('http://192.168.1.7:8000/users'),
+    Uri.parse('http://localhost:8000/users'),
     headers: <String, String>{
       'Content-Type': 'application/json; charset=UTF-8',
     },
